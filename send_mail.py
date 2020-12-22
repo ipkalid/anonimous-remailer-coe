@@ -6,7 +6,7 @@ smtp_server = "smtp.gmail.com"
 password = "ics440123"
 
 
-yag = yagmail.SMTP(my_mail)
+yag = yagmail.SMTP(my_mail, password)
 
 
 def send_mail(receiver_mail, subject, message):
