@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anonymous Mail COE 426 Project </title>
+</head>
+<body>
+    <form action = "http://localhost:5000/result" method = "POST" id="mailform">
+        <p>To(Mail) <input type = "text" name = "mail"  placeholder="mail@mail.com"/></p>
+        <p>Subject: <input type = "text" name = "subject" placeholder="Subject" /></p>
+        <p>Your Message:</p>
+        <textarea rows="4" cols="50" form="mailform" name="message"></textarea>
+
+        <p><input type = "submit" value = "Send" /></p>
+     </form>
+</body>
+</html>
